@@ -1,2 +1,13 @@
 .env
-data
+.env.*
+!.env.example
+.netrc
+.earthdata_auth
+*.pem
+*.key
+data/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store

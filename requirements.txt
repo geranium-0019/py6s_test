@@ -1,0 +1,16 @@
+# Based on the research environment, with security updates for Python 3.12.
+# This is not a complete transitive lockfile; CI audits the resolved dependencies.
+Py6S==1.9.2
+numpy==2.2.6
+rasterio==1.4.4
+matplotlib==3.10.8
+requests==2.33.0
+python-dotenv==1.2.2
+earthaccess==0.14.0
+pandas==2.3.3
+xarray==2025.6.1
+netCDF4==1.7.4
+h5netcdf[h5py]==1.8.0
+ipykernel==7.1.0
+# Explicitly constrain matplotlib's image decoder to the patched release.
+Pillow==13.0.0
